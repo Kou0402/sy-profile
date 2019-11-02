@@ -6,7 +6,7 @@
         sy-profile
       </h1>
       <h2 class="subtitle">
-        My unreal Nuxt.js project
+        My unreal Nuxt.js project test
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
