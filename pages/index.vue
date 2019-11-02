@@ -8,9 +8,12 @@
       株式会社エスワイシステムのエンジニア、鈴木晃平の職務経歴サイトです。<br />
       少しでもわたしのことをお伝えできましたら幸いです。
     </h2>
-    <a href="https://github.com/Kou0402" target="_blank" class="github">
-      <img :src="githubIconPath" class="icon" />
-    </a>
+    <div class="github">
+      <p class="guide">ソースはこちら→</p>
+      <a href="https://github.com/Kou0402" target="_blank">
+        <img :src="githubIconPath" class="icon" />
+      </a>
+    </div>
   </section>
 </template>
 
@@ -27,20 +30,25 @@ export default {
 <style lang="scss" scoped>
 .home {
   padding: 90px 0;
+  color: $main-color1;
   > .title {
-    color: $main-color1;
     font-size: 6rem;
     margin-bottom: 20px;
   }
   > .message {
-    color: $main-color1;
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 80px;
   }
   > .github {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
     float: right;
-    > .icon {
+    > .guide {
+      margin-right: 5px;
+    }
+    .icon {
       width: 40px;
     }
   }
