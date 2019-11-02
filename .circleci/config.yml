@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+    branches:
+      only:
+        - master
+    working_directory: ~/sy-profile
+    steps:
+      - checkout
+      - run:
+          name: package install
+          command: yarn install
+      - run:
+          name: build
+          command: yarn build
+      - run:
+          name: deploy to Firebase Hosting
+          command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
