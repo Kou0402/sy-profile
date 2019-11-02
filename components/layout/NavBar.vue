@@ -1,8 +1,8 @@
 <template>
   <nav class="nav-bar">
-    <NavLink path="/">自己紹介</NavLink>
-    <NavLink path="/">職務経歴</NavLink>
-    <NavLink path="/">スキル</NavLink>
+    <NavLink path="about">自己紹介</NavLink>
+    <NavLink path="carrier">職務経歴</NavLink>
+    <NavLink path="skill">スキル</NavLink>
     <nuxt-link to="/" class="logo">KS</nuxt-link>
   </nav>
 </template>
