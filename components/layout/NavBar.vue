@@ -23,7 +23,6 @@ export default {
   background-color: $base-color;
   height: 60px;
   align-items: center;
-  margin: 70px 13vw 0 13vw;
   border-bottom: solid 2px $main-color1;
   > .nav-link {
     margin-right: 40px;
