@@ -1,0 +1,38 @@
+<template>
+  <nav class="nav-bar">
+    <NavLink path="/">自己紹介</NavLink>
+    <NavLink path="/">職務経歴</NavLink>
+    <NavLink path="/">スキル</NavLink>
+    <nuxt-link to="/" class="logo">KS</nuxt-link>
+  </nav>
+</template>
+
+<script>
+import NavLink from '~/components/layout/NavLink.vue'
+
+export default {
+  components: {
+    NavLink
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.nav-bar {
+  display: flex;
+  background-color: $base-color;
+  height: 60px;
+  align-items: center;
+  margin: 70px 13vw 0 13vw;
+  border-bottom: solid 2px $main-color1;
+  > .nav-link {
+    margin-right: 40px;
+  }
+  > .logo {
+    color: $main-color1;
+    font-size: 3rem;
+    text-decoration: none;
+    margin-left: auto;
+  }
+}
+</style>
