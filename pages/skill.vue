@@ -16,3 +16,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.skill {
+  > .frontend-area {
+    margin-bottom: 50px;
+  }
+  > .backend-area {
+    margin-bottom: 50px;
+  }
+}
+</style>
