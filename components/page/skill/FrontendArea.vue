@@ -1,6 +1,6 @@
 <template>
   <section class="frontend-area">
-    <h2 class="title">フロントエンド</h2>
+    <h3 class="title">フロントエンド</h3>
     <div class="skill">
       <SkillCard font-awesome="far fa-file-code" size="4" star="★★★">
         HTML5/CSS3
@@ -33,10 +33,6 @@ export default {
 
 <style lang="scss" scoped>
 .frontend-area {
-  color: $main-color1;
-  > .title {
-    font-size: 2rem;
-  }
   > .skill {
     display: flex;
     width: 800px;

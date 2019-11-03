@@ -1,6 +1,6 @@
 <template>
   <section class="tool-area">
-    <h2 class="title">ツール</h2>
+    <h3 class="title">ツール</h3>
     <div class="skill">
       <SkillCard font-awesome="fab fa-windows" size="4" star="★★★">
         Windows
@@ -51,10 +51,6 @@ export default {
 
 <style lang="scss" scoped>
 .tool-area {
-  color: $main-color1;
-  > .title {
-    font-size: 2rem;
-  }
   > .skill {
     display: flex;
     width: 800px;

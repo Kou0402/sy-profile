@@ -1,6 +1,6 @@
 <template>
   <section class="backend-area">
-    <h2 class="title">バックエンド</h2>
+    <h3 class="title">バックエンド</h3>
     <div class="skill">
       <SkillCard font-awesome="fab fa-java" size="4" star="★★☆">
         Java
@@ -33,10 +33,6 @@ export default {
 
 <style lang="scss" scoped>
 .backend-area {
-  color: $main-color1;
-  > .title {
-    font-size: 2rem;
-  }
   > .skill {
     display: flex;
     width: 800px;

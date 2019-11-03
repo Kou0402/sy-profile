@@ -51,8 +51,7 @@ export default {
 <style lang="scss" scoped>
 .skill-card {
   display: flex;
-  height: 70px;
-  color: $main-color1;
+  height: 64px;
   align-items: center;
   text-align: center;
   > .icon {
@@ -60,8 +59,8 @@ export default {
     margin-right: 10px;
   }
   > .name {
-    width: 140px;
-    font-size: 2rem;
+    width: 120px;
+    font-size: 1.6rem;
     margin-right: 10px;
   }
   > .star {

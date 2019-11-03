@@ -1,6 +1,6 @@
 <template>
   <section class="skill">
-    <h1 class="title">所持スキル</h1>
+    <h2 class="title">所持スキル</h2>
     <SkillDescription></SkillDescription>
     <FrontendArea></FrontendArea>
     <BackendArea></BackendArea>
@@ -27,19 +27,17 @@ export default {
 <style lang="scss" scoped>
 .skill {
   > .title {
-    color: $main-color1;
-    font-size: 3rem;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
   > .skill-description {
-    margin-bottom: 30px;
+    margin-bottom: 33px;
   }
   > .frontend-area {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
   }
   > .backend-area {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
   }
 }
 </style>
