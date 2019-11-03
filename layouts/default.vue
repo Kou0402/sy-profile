@@ -24,6 +24,6 @@ export default {
   margin: 70px 13vw 0 13vw;
 }
 .main {
-  margin: 50px 13vw;
+  margin: 40px 13vw;
 }
 </style>
