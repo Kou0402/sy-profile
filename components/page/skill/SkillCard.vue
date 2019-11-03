@@ -55,6 +55,7 @@ export default {
   align-items: center;
   text-align: center;
   > .icon {
+    color: $accent-color1;
     width: 50px;
     margin-right: 10px;
   }

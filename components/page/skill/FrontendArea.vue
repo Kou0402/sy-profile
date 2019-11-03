@@ -35,8 +35,9 @@ export default {
 .frontend-area {
   > .skill {
     display: flex;
-    width: 800px;
-    height: 270px;
+    width: 72vw;
+    max-width: 800px;
+    height: 255px;
     flex-direction: column;
     flex-wrap: wrap;
     > .skill-card {

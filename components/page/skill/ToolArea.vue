@@ -53,7 +53,8 @@ export default {
 .tool-area {
   > .skill {
     display: flex;
-    width: 800px;
+    width: 72vw;
+    max-width: 800px;
     height: 540px;
     flex-direction: column;
     flex-wrap: wrap;
