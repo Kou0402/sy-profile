@@ -45,7 +45,7 @@ export default {
 .carrier-card {
   > .title {
     font-weight: 500;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     > .period {
       font-size: 1.6rem;
       font-weight: 600;
@@ -53,12 +53,10 @@ export default {
   }
   > .subtitle {
     font-size: 1.6rem;
-    // font-weight: 500;
-    margin-bottom: 10px;
   }
   > .paragraph {
     font-size: 1.6rem;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 }
 </style>
