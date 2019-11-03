@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import CarrierCard from '~/components/page/CarrierCard.vue'
+import CarrierCard from '~/components/page/carrier/CarrierCard.vue'
 
 export default {
   components: {
