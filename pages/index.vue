@@ -39,19 +39,19 @@ export default {
     line-height: 7.2rem;
 
     // transition
-    .name-enter-active {
+    > .name-enter-active {
       transition: all 1.2s ease 0s;
     }
-    .profile-enter-active {
+    > .profile-enter-active {
       transition: all 1.2s ease 0.3s;
     }
-    .name-enter,
-    .profile-enter {
+    > .name-enter,
+    > .profile-enter {
       opacity: 0;
       transform: translateY(30px);
     }
-    .name-enter-to,
-    .profile-enter-to {
+    > .name-enter-to,
+    > .profile-enter-to {
       transform: translateY(0);
     }
   }
