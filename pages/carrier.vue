@@ -22,7 +22,7 @@ export default {
     return {
       carrierData: [
         {
-          title: '不動産会社営業向けシステム改修',
+          title: '不動産会社 営業向けシステム改修',
           period: 2,
           overview:
             '不動産会社の営業向け顧客管理パッケージソフトの改修案件。' +
@@ -30,23 +30,23 @@ export default {
           technology: 'PHP/JavaScript/Lumen/jQuery/PostgreSQL/Linux/Vagrant'
         },
         {
-          title: 'ポータルサイトのデータ変換ツール',
+          title: 'ポータルサイト データ変換ツール',
           period: 1,
           overview:
-            'VBA案件。とある機関のポータルサイト改修プロジェクトの一環で、サイトに' +
+            'VBA案件。博物館のポータルサイト改修プロジェクトの一環で、サイトに' +
             '掲示するための資料データを、規格通りに整形するエクセルツールの作成を担当。',
           technology: 'VBA'
         },
         {
-          title: '大手複合機メーカー基幹システム開発テストサポート',
+          title: '大手複合機メーカー 基幹システム開発テストサポート',
           period: 2,
           overview:
-            '大手企業の基幹システムの改修プロジェクトのテストサポーターとして参画。' +
+            '大手複合機メーカーの基幹システム改修プロジェクトのテストサポーターとして参画。' +
             'テスト用データ作成や不具合発生時のパッチSQL作成などを担当。',
           technology: 'SQL/OracleDB'
         },
         {
-          title: '保証会社契約管理システムリプレイス',
+          title: '保証会社 契約管理システムリプレイス',
           period: 9,
           overview:
             '金融関連会社の社内システムのリプレイス案件。Flashで構成されたシステムを' +
@@ -59,7 +59,7 @@ export default {
           overview:
             '老朽化したサーバーとソフトウェアのリプレイス案件。' +
             '主にバッチ系処理の製造を担当。',
-          technology: 'WindowsServer/Java/VBS'
+          technology: 'WindowsServer/Java/VBS/JP1/HULFT'
         }
       ]
     }
@@ -70,7 +70,7 @@ export default {
 <style lang="scss" scoped>
 .carrier {
   > .carrier-card {
-    margin-bottom: 50px;
+    margin-bottom: 56px;
   }
 }
 </style>

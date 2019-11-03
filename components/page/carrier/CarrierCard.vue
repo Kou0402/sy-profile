@@ -1,16 +1,16 @@
 <template>
   <article class="carrier-card">
     <h2 class="title">
-      {{ title }} <span>（期間：{{ period }}ヶ月）</span>
+      {{ title }} <span class="period">(期間：{{ period }}ヶ月)</span>
     </h2>
     <h3 class="subtitle">
-      概要
+      - 概要 -
     </h3>
     <p class="paragraph">
       {{ overview }}
     </p>
     <h3 class="subtitle">
-      技術
+      - 技術 -
     </h3>
     <p class="paragraph">
       {{ technology }}
@@ -43,20 +43,22 @@ export default {
 
 <style lang="scss" scoped>
 .carrier-card {
-  color: $main-color1;
   > .title {
-    font-size: 3.2rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    > .period {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
   }
   > .subtitle {
-    font-size: 2.4rem;
-    font-weight: 500;
+    font-size: 1.6rem;
+    // font-weight: 500;
     margin-bottom: 10px;
   }
   > .paragraph {
     font-size: 1.6rem;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
 }
 </style>
