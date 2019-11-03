@@ -19,14 +19,14 @@ export default {
 .nav-link {
   > .name {
     display: inline-block;
-    position: relative;
     color: $main-color1;
-    font-size: 2.3rem;
+    position: relative;
+    font-size: 2.4rem;
     text-decoration: none;
   }
   > .name::after {
     position: absolute;
-    bottom: -10px;
+    bottom: -8px;
     left: 0;
     content: '';
     background: $main-color1;
@@ -37,11 +37,11 @@ export default {
     transition: transform 0.3s;
   }
   > .name:hover::after {
-    transform: scale(1.1, 1);
+    transform: scale(1, 1);
   }
   > .nuxt-link-exact-active::after {
     position: absolute;
-    bottom: -10px;
+    bottom: -8px;
     left: 0;
     content: '';
     width: 100%;

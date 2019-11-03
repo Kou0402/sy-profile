@@ -55,7 +55,7 @@ export default {
     margin-bottom: 10px;
   }
   > .paragraph {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     margin-bottom: 17px;
   }
 }

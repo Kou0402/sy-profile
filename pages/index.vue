@@ -4,10 +4,10 @@
       KOHEI SUZUKI<br />
       PROFILE
     </h1>
-    <h2 class="message">
+    <h3 class="message">
       株式会社エスワイシステムのエンジニア、鈴木晃平の職務経歴サイトです。<br />
       少しでもわたしのことをお伝えできましたら幸いです。
-    </h2>
+    </h3>
     <div class="github">
       <p class="guide">ソースはこちら→</p>
       <a href="https://github.com/Kou0402" target="_blank">
@@ -29,16 +29,16 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  padding: 90px 0;
-  color: $main-color1;
+  padding: 72px 0;
   > .title {
-    font-size: 6rem;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
+    line-height: 7.2rem;
   }
   > .message {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 80px;
+    line-height: 3.2rem;
+    margin-bottom: 144px;
   }
   > .github {
     display: flex;
@@ -46,10 +46,19 @@ export default {
     align-items: center;
     float: right;
     > .guide {
-      margin-right: 5px;
+      margin-right: 4px;
     }
     .icon {
       width: 40px;
+      animation: key1 0.4s ease infinite alternate;
+    }
+    @keyframes key1 {
+      0% {
+        transform: translateY(0px);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
     }
   }
 }

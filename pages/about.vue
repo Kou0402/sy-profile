@@ -18,10 +18,9 @@
 
 <style lang="scss" scoped>
 .about {
-  letter-spacing: 3px;
   > .name {
     color: $main-color1;
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 500;
     margin-bottom: 30px;
   }

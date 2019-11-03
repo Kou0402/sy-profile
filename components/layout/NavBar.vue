@@ -20,16 +20,15 @@ export default {
 <style lang="scss" scoped>
 .nav-bar {
   display: flex;
-  background-color: $base-color;
-  height: 60px;
+  height: 48px;
   align-items: center;
   border-bottom: solid 2px $main-color1;
   > .nav-link {
-    margin-right: 40px;
+    margin-right: 32px;
   }
   > .logo {
-    color: $main-color1;
-    font-size: 3rem;
+    color: $accent-color1;
+    font-size: 4rem;
     text-decoration: none;
     margin-left: auto;
     font-family: 'Architects Daughter', cursive;

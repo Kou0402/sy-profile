@@ -17,7 +17,7 @@ export default {
     link: [
       {
         href:
-          'https://fonts.googleapis.com/css?family=Architects+Daughter|Noto+Serif+JP:200,600&display=swap&subset=japanese',
+          'https://fonts.googleapis.com/css?family=Architects+Daughter|Noto+Serif+JP:300,600&display=swap&subset=japanese',
         rel: 'stylesheet'
       }
     ],
