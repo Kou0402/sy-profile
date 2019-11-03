@@ -60,7 +60,7 @@ export default {
     margin-right: 10px;
   }
   > .name {
-    width: 150px;
+    width: 140px;
     font-size: 2rem;
     margin-right: 10px;
   }

@@ -1,0 +1,17 @@
+<template>
+  <section class="skill-description">
+    <p>わたしの持ってる技術の紹介です。</p>
+    <p>『★』の評価基準は以下になります。</p>
+    <p>★☆☆：多少触ったことがある。または自主的に勉強している。</p>
+    <p>★★☆：実務で経験している。または自主的に半年以上使用している。</p>
+    <p>★★★：実務や自主開発にて１年以上経験している。</p>
+  </section>
+</template>
+
+<style lang="scss" scoped>
+.skill-description {
+  color: $main-color1;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+</style>

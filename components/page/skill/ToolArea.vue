@@ -53,7 +53,7 @@ export default {
 .tool-area {
   color: $main-color1;
   > .title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   > .skill {
     display: flex;
