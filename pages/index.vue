@@ -1,9 +1,13 @@
 <template>
   <section class="home">
-    <h1 class="title">
-      KOHEI SUZUKI<br />
-      PROFILE
-    </h1>
+    <div class="title">
+      <transition appear name="name">
+        <h1>KOHEI SUZUKI</h1>
+      </transition>
+      <transition appear name="profile">
+        <h1>PROFILE</h1>
+      </transition>
+    </div>
     <h3 class="message">
       株式会社エスワイシステムのエンジニア、鈴木晃平の職務経歴サイトです。<br />
       少しでもわたしのことをお伝えできましたら幸いです。
@@ -33,6 +37,23 @@ export default {
   > .title {
     margin-bottom: 28px;
     line-height: 7.2rem;
+
+    // transition
+    .name-enter-active {
+      transition: all 1.2s ease 0s;
+    }
+    .profile-enter-active {
+      transition: all 1.2s ease 0.3s;
+    }
+    .name-enter,
+    .profile-enter {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    .name-enter-to,
+    .profile-enter-to {
+      transform: translateY(0);
+    }
   }
   > .message {
     font-size: 2rem;
