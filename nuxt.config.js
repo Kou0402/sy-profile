@@ -14,6 +14,13 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
+    link: [
+      {
+        href:
+          'https://fonts.googleapis.com/css?family=Architects+Daughter|Noto+Serif+JP:300,600&display=swap&subset=japanese',
+        rel: 'stylesheet'
+      }
+    ],
     script: [
       {
         src: 'https://kit.fontawesome.com/e0cf21ed6e.js',

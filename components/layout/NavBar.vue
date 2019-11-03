@@ -32,6 +32,7 @@ export default {
     font-size: 3rem;
     text-decoration: none;
     margin-left: auto;
+    font-family: 'Architects Daughter', cursive;
   }
 }
 </style>
