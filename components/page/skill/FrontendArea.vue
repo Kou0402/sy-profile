@@ -11,10 +11,10 @@
       <SkillCard image-file-name="jquery_icon" size="4" star="★★★">
         jQuery
       </SkillCard>
-      <SkillCard font-awesome="fab fa-vuejs" size="4" star="★☆☆">
+      <SkillCard font-awesome="fab fa-vuejs" size="4" star="★★☆">
         Vue.js
       </SkillCard>
-      <SkillCard image-file-name="nuxt_icon" size="4" star="★☆☆">
+      <SkillCard image-file-name="nuxt_icon" size="4" star="★★☆">
         Nuxt.js
       </SkillCard>
     </div>

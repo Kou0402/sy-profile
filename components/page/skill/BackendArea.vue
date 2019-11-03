@@ -8,10 +8,10 @@
       <SkillCard image-file-name="spring_icon" size="4" star="★☆☆">
         Spring
       </SkillCard>
-      <SkillCard font-awesome="fab fa-php" size="4" star="★★☆">
+      <SkillCard font-awesome="fab fa-php" size="4" star="★☆☆">
         PHP
       </SkillCard>
-      <SkillCard font-awesome="fab fa-laravel" size="4" star="★★☆">
+      <SkillCard font-awesome="fab fa-laravel" size="4" star="★☆☆">
         Laravel
       </SkillCard>
       <SkillCard image-file-name="database_icon" size="4" star="★★☆">
