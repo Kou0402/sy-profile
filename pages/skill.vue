@@ -27,8 +27,7 @@ export default {
 <style lang="scss" scoped>
 .skill {
   > .title {
-    font-weight: 500;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
   > .skill-description {
     margin-bottom: 33px;

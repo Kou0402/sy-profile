@@ -9,8 +9,10 @@
       </transition>
     </div>
     <h3 class="message">
-      株式会社エスワイシステムのエンジニア鈴木晃平の職務経歴サイトです。<br />
-      少しでもわたしのことをお伝えできましたら幸いです。
+      <span class="line-group">株式会社エスワイシステムのエンジニア</span>
+      <span class="line-group">鈴木晃平の職務経歴サイトです。</span>
+      <span class="line-group">少しでもわたしのことを</span>
+      <span class="line-group">お伝えできましたら幸いです。</span>
     </h3>
     <div class="github">
       <p class="guide">ソースはこちら→</p>
@@ -64,6 +66,7 @@ export default {
     font-weight: 500;
     line-height: 3.2rem;
     margin-bottom: 144px;
+    padding-right: 16vw;
   }
   > .github {
     display: flex;

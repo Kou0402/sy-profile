@@ -1,15 +1,19 @@
 <template>
   <article class="carrier-card">
-    <h2 class="title">
+    <h3 class="title">
       {{ title }} <span class="period">({{ period }})</span>
-    </h2>
-    <h3 class="subtitle">
+    </h3>
+    <h4 class="subtitle">
       - 概要 -
-    </h3>
-    <p class="paragraph" v-html="overview"></p>
-    <h3 class="subtitle">
+    </h4>
+    <p class="paragraph">
+      <span v-for="item in overview" :key="item.id" class="line-group">
+        {{ item }}
+      </span>
+    </p>
+    <h4 class="subtitle">
       - 技術 -
-    </h3>
+    </h4>
     <p class="paragraph">
       {{ technology }}
     </p>
@@ -28,7 +32,7 @@ export default {
       required: true
     },
     overview: {
-      type: String,
+      type: Array,
       required: true
     },
     technology: {
@@ -41,27 +45,24 @@ export default {
 
 <style lang="scss" scoped>
 .carrier-card {
+  .line-group {
+    margin-right: 0;
+  }
   > .title {
-    font-weight: 500;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     > .period {
       font-size: 1.6rem;
-      font-weight: 600;
     }
   }
-  > .subtitle {
-    font-size: 1.6rem;
-  }
   > .paragraph {
-    font-size: 1.6rem;
     margin-bottom: 8px;
+    padding-right: 18vw;
   }
 }
 
 @media screen and (max-width: 560px) {
   .carrier-card {
     > .title {
-      font-size: 2rem;
       > .period {
         font-size: 1.4rem;
       }

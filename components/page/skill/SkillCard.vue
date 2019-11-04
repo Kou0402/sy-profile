@@ -4,9 +4,9 @@
       <i v-if="fontAwesome" :class="fontAwesome"></i>
       <img v-if="imageFileName" :src="imagePath" />
     </div>
-    <h3 class="name">
+    <p class="name">
       <slot></slot>
-    </h3>
+    </p>
     <div class="star">
       {{ star }}
     </div>
@@ -61,12 +61,10 @@ export default {
   }
   > .name {
     width: 120px;
-    font-size: 1.6rem;
     margin-right: 10px;
   }
   > .star {
     width: 50px;
-    font-size: 1.5rem;
   }
 }
 
