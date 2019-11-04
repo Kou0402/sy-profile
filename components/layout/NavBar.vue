@@ -34,14 +34,10 @@ export default {
     margin-right: 32px;
   }
   > .logo {
-    color: $accent-color1;
-    font-size: 4rem;
-    text-decoration: none;
     margin-left: auto;
-    font-family: 'Architects Daughter', cursive;
     > .image {
       height: 44px;
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
   }
 }
