@@ -1,7 +1,10 @@
 <template>
   <article class="carrier-card">
     <h3 class="title">
-      {{ title }} <span class="period">({{ period }})</span>
+      <span v-for="item in title" :key="item.id" class="line-group">
+        {{ item }}
+      </span>
+      <span class="period line-group">({{ period }})</span>
     </h3>
     <h4 class="subtitle">
       - 概要 -
@@ -24,7 +27,7 @@
 export default {
   props: {
     title: {
-      type: String,
+      type: Array,
       required: true
     },
     period: {
@@ -50,6 +53,9 @@ export default {
   }
   > .title {
     margin-bottom: 8px;
+    :first-child {
+      margin-right: 4px;
+    }
     > .period {
       font-size: 1.6rem;
     }
@@ -63,16 +69,15 @@ export default {
 @media screen and (max-width: 560px) {
   .carrier-card {
     > .title {
+      margin-bottom: 4px;
       > .period {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
       }
-    }
-    > .subtitle {
-      font-size: 1.2rem;
     }
     > .paragraph {
       word-break: break-word;
-      font-size: 1.2rem;
+      margin-bottom: 4px;
+      padding-right: 0;
     }
   }
 }

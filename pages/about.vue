@@ -57,8 +57,9 @@
 
 @media screen and (max-width: 560px) {
   .about {
-    > .name {
-      margin-bottom: 24px;
+    > .introduction {
+      line-height: 2.2rem;
+      padding-right: 0;
     }
   }
 }
