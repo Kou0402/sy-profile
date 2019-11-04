@@ -41,18 +41,22 @@ export default {
     // transition
     > .name-enter-active {
       transition: all 1.2s ease 0s;
+      -webkit-transition: all 1.2s ease 0s;
     }
     > .profile-enter-active {
       transition: all 1.2s ease 0.3s;
+      -webkit-transition: all 1.2s ease 0.3s;
     }
     > .name-enter,
     > .profile-enter {
       opacity: 0;
       transform: translateY(30px);
+      -webkit-transform: translateY(30px);
     }
     > .name-enter-to,
     > .profile-enter-to {
       transform: translateY(0);
+      -webkit-transform: translateY(0);
     }
   }
   > .message {
@@ -90,31 +94,10 @@ export default {
     > .title {
       margin-bottom: 16px;
       line-height: 6.4rem;
-
-      // transition
-      > .name-enter-active {
-        transition: all 1.2s ease 0s;
-        -webkit-transition: all 1.2s ease 0s;
-      }
-      > .profile-enter-active {
-        transition: all 1.2s ease 0.3s;
-        -webkit-transition: all 1.2s ease 0.3s;
-      }
-      > .name-enter,
-      > .profile-enter {
-        opacity: 0;
-        transform: translateY(30px);
-        -webkit-transform: translateY(30px);
-      }
-      > .name-enter-to,
-      > .profile-enter-to {
-        transform: translateY(0);
-        -webkit-transform: translateY(0);
-      }
     }
     > .message {
       font-size: 1.6rem;
-      margin-bottom: 16vh;
+      margin-bottom: 80px;
       padding-right: 32px;
     }
   }
