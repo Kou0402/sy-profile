@@ -41,4 +41,12 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 560px) {
+  .nav-bar {
+    > .nav-link {
+      margin-right: 16px;
+    }
+  }
+}
 </style>

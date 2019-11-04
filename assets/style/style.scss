@@ -29,5 +29,24 @@ p, div{
   font-size: 1.6rem;
   letter-spacing: 1px;
   line-height: 2.4rem;
+}
 
+@media screen and (max-width:560px) {
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+  }
+  h2 {
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+  }
+  h3 {
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+  }
+  p, div{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 2.4rem;
+  }
 }

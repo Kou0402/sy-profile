@@ -51,4 +51,12 @@ export default {
     transform-origin: center top;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .nav-link {
+    > .name {
+      font-size: 1.6rem;
+    }
+  }
+}
 </style>

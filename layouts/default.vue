@@ -26,4 +26,13 @@ export default {
 .main {
   margin: 40px 13vw;
 }
+
+@media screen and (max-width: 560px) {
+  .header {
+    margin: 40px 4vw 0 4vw;
+  }
+  .main {
+    margin: 40px 4vw;
+  }
+}
 </style>
