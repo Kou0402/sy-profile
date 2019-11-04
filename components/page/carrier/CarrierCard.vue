@@ -57,4 +57,22 @@ export default {
     margin-bottom: 8px;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .carrier-card {
+    > .title {
+      font-size: 2rem;
+      > .period {
+        font-size: 1.4rem;
+      }
+    }
+    > .subtitle {
+      font-size: 1.2rem;
+    }
+    > .paragraph {
+      word-break: break-word;
+      font-size: 1.2rem;
+    }
+  }
+}
 </style>

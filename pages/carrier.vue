@@ -73,4 +73,12 @@ export default {
     margin-bottom: 56px;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .carrier {
+    > .carrier-card {
+      margin-bottom: 40px;
+    }
+  }
+}
 </style>
