@@ -27,7 +27,7 @@ export default {
       default: ''
     },
     size: {
-      type: Number,
+      type: String,
       required: true
     },
     star: {
