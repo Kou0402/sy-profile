@@ -6,9 +6,7 @@
     <h3 class="subtitle">
       - 概要 -
     </h3>
-    <p class="paragraph">
-      {{ overview }}
-    </p>
+    <p class="paragraph" v-html="overview"></p>
     <h3 class="subtitle">
       - 技術 -
     </h3>
