@@ -1,7 +1,7 @@
 <template>
   <article class="carrier-card">
     <h2 class="title">
-      {{ title }} <span class="period">(期間：{{ period }}ヶ月)</span>
+      {{ title }} <span class="period">({{ period }})</span>
     </h2>
     <h3 class="subtitle">
       - 概要 -
@@ -24,7 +24,7 @@ export default {
       required: true
     },
     period: {
-      type: Number,
+      type: String,
       required: true
     },
     overview: {
