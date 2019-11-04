@@ -40,4 +40,12 @@ export default {
     margin-bottom: 32px;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .skill {
+    > .title {
+      font-size: 2rem;
+    }
+  }
+}
 </style>

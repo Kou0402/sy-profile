@@ -45,4 +45,15 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 560px) {
+  .backend-area {
+    > .skill {
+      display: initial;
+      > .skill-card {
+        margin: 10px 0;
+      }
+    }
+  }
+}
 </style>

@@ -69,4 +69,21 @@ export default {
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .skill-card {
+    height: 56px;
+    > .icon {
+      width: 40px;
+    }
+    > .name {
+      width: 100px;
+      font-size: 1.2rem;
+    }
+    > .star {
+      width: 40px;
+      font-size: 1.2rem;
+    }
+  }
+}
 </style>
