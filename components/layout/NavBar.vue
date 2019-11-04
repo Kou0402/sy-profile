@@ -3,7 +3,9 @@
     <NavLink path="about">自己紹介</NavLink>
     <NavLink path="carrier">職務経歴</NavLink>
     <NavLink path="skill">スキル</NavLink>
-    <nuxt-link to="/" class="logo">KS</nuxt-link>
+    <nuxt-link to="/" class="logo"
+      ><img :src="navIconPath" class="image"
+    /></nuxt-link>
   </nav>
 </template>
 
@@ -13,6 +15,11 @@ import NavLink from '~/components/layout/NavLink.vue'
 export default {
   components: {
     NavLink
+  },
+  data() {
+    return {
+      navIconPath: require('~/assets/image/' + 'nav_icon.png')
+    }
   }
 }
 </script>
@@ -32,6 +39,10 @@ export default {
     text-decoration: none;
     margin-left: auto;
     font-family: 'Architects Daughter', cursive;
+    > .image {
+      height: 44px;
+      margin-bottom: 14px;
+    }
   }
 }
 </style>
