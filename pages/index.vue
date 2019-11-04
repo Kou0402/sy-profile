@@ -94,18 +94,22 @@ export default {
       // transition
       > .name-enter-active {
         transition: all 1.2s ease 0s;
+        -webkit-transition: all 1.2s ease 0s;
       }
       > .profile-enter-active {
         transition: all 1.2s ease 0.3s;
+        -webkit-transition: all 1.2s ease 0.3s;
       }
       > .name-enter,
       > .profile-enter {
         opacity: 0;
         transform: translateY(30px);
+        -webkit-transform: translateY(30px);
       }
       > .name-enter-to,
       > .profile-enter-to {
         transform: translateY(0);
+        -webkit-transform: translateY(0);
       }
     }
     > .message {
