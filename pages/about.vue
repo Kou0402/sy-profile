@@ -52,11 +52,11 @@
         Vue.js製のJavaScriptフレームワークを
       </span>
       <span class="line-group">
-        使用して構築されている。
+        使用。
       </span>
       <br />
       <span class="line-group">
-        ソース管理はGitHubで行われており、
+        ソース管理はGitHubで行われており
       </span>
       <span class="line-group">
         「CircleCI」というクラウドの
@@ -68,7 +68,7 @@
         ソースがPushされると、自動でFirebaseに
       </span>
       <span class="line-group">
-        デプロイを行う仕組みを組んでいる。
+        デプロイを行う仕組みを採用。
       </span>
     </p>
   </section>
