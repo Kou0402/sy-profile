@@ -1,5 +1,6 @@
 <template>
   <nav class="nav-bar">
+    <NavLink path="/">ホーム</NavLink>
     <NavLink path="about">自己紹介</NavLink>
     <NavLink path="carrier">職務経歴</NavLink>
     <NavLink path="skill">スキル</NavLink>
@@ -45,7 +46,7 @@ export default {
 @media screen and (max-width: 560px) {
   .nav-bar {
     > .nav-link {
-      margin-right: 16px;
+      margin-right: 8px;
     }
   }
 }
