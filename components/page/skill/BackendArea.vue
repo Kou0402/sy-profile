@@ -2,10 +2,10 @@
   <section class="backend-area">
     <h3 class="title">バックエンド</h3>
     <div class="skill">
-      <SkillCard font-awesome="fab fa-java" size="4" star="★★☆">
+      <SkillCard font-awesome="fab fa-java" size="4" star="★★★">
         Java
       </SkillCard>
-      <SkillCard image-file-name="spring_icon" size="4" star="★☆☆">
+      <SkillCard image-file-name="spring_icon" size="4" star="★★☆">
         Spring
       </SkillCard>
       <SkillCard font-awesome="fab fa-php" size="4" star="★☆☆">

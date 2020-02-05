@@ -17,7 +17,7 @@
       <SkillCard image-file-name="vscode_icon" size="4" star="★★★">
         VSCode
       </SkillCard>
-      <SkillCard font-awesome="fab fa-figma" size="4" star="★☆☆">
+      <SkillCard image-file-name="figma_icon" size="4" star="★☆☆">
         Figma
       </SkillCard>
       <SkillCard font-awesome="fas fa-code-branch" size="4" star="★★★">

@@ -8,6 +8,9 @@
       <SkillCard font-awesome="fab fa-js-square" size="4" star="★★★">
         JavaScript
       </SkillCard>
+      <SkillCard image-file-name="typescript_icon" size="4" star="★☆☆">
+        TypeScript
+      </SkillCard>
       <SkillCard image-file-name="jquery_icon" size="4" star="★★★">
         jQuery
       </SkillCard>
@@ -16,6 +19,9 @@
       </SkillCard>
       <SkillCard image-file-name="nuxt_icon" size="4" star="★★☆">
         Nuxt.js
+      </SkillCard>
+      <SkillCard image-file-name="angular_icon" size="4" star="★☆☆">
+        Angular
       </SkillCard>
     </div>
   </section>
@@ -37,7 +43,7 @@ export default {
     display: flex;
     width: 72vw;
     max-width: 800px;
-    height: 255px;
+    height: 340px;
     flex-direction: column;
     flex-wrap: wrap;
     > .skill-card {
