@@ -1,6 +1,6 @@
 <template>
   <section class="skill-description">
-    <p>わたしの持ってる技術の紹介です。</p>
+    <p>わたしの持っている技術の紹介です。</p>
     <p>『★』の評価基準は以下になります。</p>
     <p>
       <span class="line-group">・★☆☆</span>

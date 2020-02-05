@@ -66,12 +66,22 @@ export default {
         },
         {
           title: ['保証会社', 'サーバーリプレイス'],
-          period: '2019.5 - 現在',
+          period: '2019.5 - 2019.12',
           overview: [
             '老朽化したサーバーとソフトウェアのリプレイス案件。',
             '主にバッチ系処理の製造を担当。'
           ],
           technology: 'WindowsServer / Java / VBS / JP1 / HULFT'
+        },
+        {
+          title: ['大手システム会社', '物流向けパッケージ開発'],
+          period: '2020.1 - 現在',
+          overview: [
+            '倉庫などにおける物流業務の最適化システムの開発案件。',
+            'REST API 設計による管理画面の実装を担当。'
+          ],
+          technology:
+            'Java / TypeScript / Spring / Angular / Postgres / REST API'
         }
       ]
     }

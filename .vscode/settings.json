@@ -13,5 +13,11 @@
   "editor.formatOnSave": false,
   "eslint.autoFixOnSave": true,
 
-  "editor.rulers": [80, 100]
+  "editor.rulers": [
+    80,
+    100
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
