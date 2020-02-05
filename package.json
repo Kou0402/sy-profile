@@ -12,6 +12,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "@nuxtjs/style-resources": "^1.0.0",
     "firebase-tools": "^7.6.2",
     "node-sass": "^4.13.0",

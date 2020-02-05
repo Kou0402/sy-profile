@@ -22,12 +22,7 @@ export default {
         rel: 'stylesheet'
       }
     ],
-    script: [
-      {
-        src: 'https://kit.fontawesome.com/e0cf21ed6e.js',
-        crossorigin: 'anonymous'
-      }
-    ]
+    script: []
   },
   /*
    ** Customize the progress-bar color
@@ -36,7 +31,14 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/style/reset.css', '@/assets/style/style.scss'],
+  css: [
+    '@/assets/style/reset.css',
+    '@/assets/style/style.scss',
+    '@fortawesome/fontawesome-free-webfonts',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css',
+    '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
+  ],
   /*
    ** Style Resources
    */
