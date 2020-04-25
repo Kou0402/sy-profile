@@ -75,13 +75,23 @@ export default {
         },
         {
           title: ['大手システム会社', '物流向けパッケージ開発'],
-          period: '2020.1 - 現在',
+          period: '2020.1 - 2020.3',
           overview: [
             '倉庫などにおける物流業務の最適化システムの開発案件。',
-            'REST API 設計による管理画面の実装を担当。'
+            '管理画面のフロント・バックエンドの実装を担当。'
           ],
           technology:
             'Java / TypeScript / Spring / Angular / Postgres / REST API'
+        },
+        {
+          title: ['物流会社', '倉庫管理システム大規模リプレイス'],
+          period: '2020.4 - 現在',
+          overview: [
+            '大手物流関連会社の倉庫管理システムリプレイス案件。',
+            'Scrum@Scale による大規模アジャイルによる開発。',
+            'AWS Go マイクロサービス といったモダンアーキテクチャ。'
+          ],
+          technology: 'Go / TypeScript / Angular / AWS / Scrum@Scale'
         }
       ]
     }
