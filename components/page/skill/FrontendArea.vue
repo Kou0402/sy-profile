@@ -8,7 +8,7 @@
       <SkillCard font-awesome="fab fa-js-square" size="4" star="★★★">
         JavaScript
       </SkillCard>
-      <SkillCard image-file-name="typescript_icon" size="4" star="★☆☆">
+      <SkillCard image-file-name="typescript_icon" size="4" star="★★☆">
         TypeScript
       </SkillCard>
       <SkillCard image-file-name="jquery_icon" size="4" star="★★★">
@@ -20,7 +20,7 @@
       <SkillCard image-file-name="nuxt_icon" size="4" star="★★☆">
         Nuxt.js
       </SkillCard>
-      <SkillCard image-file-name="angular_icon" size="4" star="★☆☆">
+      <SkillCard image-file-name="angular_icon" size="4" star="★★☆">
         Angular
       </SkillCard>
     </div>

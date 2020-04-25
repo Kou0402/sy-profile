@@ -1,6 +1,6 @@
 <template>
   <section class="tool-area">
-    <h3 class="title">ツール</h3>
+    <h3 class="title">インフラ・ツール</h3>
     <div class="skill">
       <SkillCard font-awesome="fab fa-windows" size="4" star="★★★">
         Windows
@@ -35,6 +35,12 @@
       <SkillCard image-file-name="firebase_icon" size="4" star="★★☆">
         Firebase
       </SkillCard>
+      <SkillCard font-awesome="fab fa-aws" size="4" star="★☆☆">
+        AWS
+      </SkillCard>
+      <SkillCard font-awesome="fab fa-slack" size="4" star="★★☆">
+        Slack
+      </SkillCard>
     </div>
   </section>
 </template>
@@ -55,7 +61,7 @@ export default {
     display: flex;
     width: 72vw;
     max-width: 800px;
-    height: 540px;
+    height: 590px;
     flex-direction: column;
     flex-wrap: wrap;
     > .skill-card {

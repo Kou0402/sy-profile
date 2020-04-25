@@ -14,6 +14,9 @@
       <SkillCard font-awesome="fab fa-laravel" size="4" star="★☆☆">
         Laravel
       </SkillCard>
+      <SkillCard image-file-name="go_icon" size="4" star="★☆☆">
+        Go
+      </SkillCard>
       <SkillCard image-file-name="database_icon" size="4" star="★★☆">
         SQL
       </SkillCard>
