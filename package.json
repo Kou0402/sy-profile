@@ -15,7 +15,7 @@
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "@nuxtjs/style-resources": "^1.0.0",
     "firebase-tools": "^7.6.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.10.2",
     "sass-loader": "^8.0.0"
   },
